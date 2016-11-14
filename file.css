@@ -1,0 +1,82 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet"/>
+<style type="text/css">
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #87CEFA;
+    text-align: right;
+}
+
+li {
+    display:inline-block;
+}
+li:first-child{
+	float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center; 
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 25px;
+}
+
+li a:hover {
+    background-color: #20B2AA;
+}
+li a:active {
+    background-color: #5F9EA0;
+}
+.bg-img{
+	background-image: url("http://techandall.com/wp-content/uploads/2013/10/techandall_wallpaper_1.jpg");
+	background-size: cover;
+}
+.border{
+	border-width: 2px;
+	border-radius: 10%;
+	border-color: #000000;
+}
+.logo {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px; 
+}
+.pro {
+    display: inline-block;
+    margin-left: 2cm;
+    margin-right: auto;
+    height: 100px; 
+}
+#images{
+    text-align:center;
+
+}
+.imgContainer{
+    float:left;
+    display: inline-block;
+    margin-left: 3cm;
+    margin-right: auto;
+    
+    text-align:center;
+}
+.second {
+  transition: background-color 0.5s ease;
+  background-color: #7FFFD4;
+}
+.second:hover {
+  background-color: #B0C4DE;
+}
+.box {
+  transition: transform 1s;
+}
+
+.box:hover {
+  transform: scale(1.5);
+}
+</style>
